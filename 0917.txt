@@ -1,1 +1,11 @@
-1. git log --oneline
+git log --oneline
+
+git pull origin master --allow-unrelated-histories
+
+git config --global color.ui true
+
+netstat -ano|findstr "80"  netstat -ano|grep  "80"
+
+git config -global
+
+git pull --rebase origin master
