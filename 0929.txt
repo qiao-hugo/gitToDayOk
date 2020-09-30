@@ -1,0 +1,17 @@
+1. {php_bin_dir}/phpize
+   ./configure --with-php-config={php_bin_dir}/php-config
+
+    cd cmdtool
+    make
+    phptrace -p
+
+    alias
+    alias pl='pwd; ls'
+
+    alias p="pwd"; l="ls -al"
+
+    gdb php 进程
+    gdb attach 进程调试
+
+    TCP 粘包问题
+    netstat -atpln | grep 9501

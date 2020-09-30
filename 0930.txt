@@ -1,0 +1,14 @@
+1. telnet命令通常用来远程登录
+2. xargs 是一个强有力的命令，它能够捕获一个命令的输出，然后传递给另外一个命令
+3. git branch -vv
+4. nice:以指定的优先级运行程序
+5. renice: 调整以运行进程的优先级
+6. renice 更改已经运行进程的优先级；
+   chrt 命令显示并直接修改优先级和调度策略
+
+   git whatchanged 每次修改的文件列表
+   git whatchanged --stat 每次修改的文件列表, 及文件修改的统计
+   pidstat -w 5
+   linux 上下文切换优化
+   watch -d cat /proc/interrupts
+   mpstat命令参数详解

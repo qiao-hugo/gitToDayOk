@@ -1,0 +1,31 @@
+1. If you have H2 or SQLite database files available locally, you can create data sources for them by dragging the files to the Database tool window. The files can be dragged from your file manager (e.g. Explorer or Finder), or from the Project tool window
+
+    如果您有本地可用的H2或SQLite数据库文件，您可以通过将文件拖放到database tool窗口来为它们创建数据源。可以从文件管理器(例如资源管理器或Finder)或从项目工具窗口中拖动文件
+
+2. To protect your database from accidental modifications in the Table Editor and the database console, you can turn on the Read-only option for the corresponding data source (Data Source Properties in the context menu of the Database tool window)
+
+   为了保护数据库不受表编辑器和数据库控制台中意外修改的影响，可以为相应的数据源打开只读选项(数据库工具窗口的上下文菜单中的数据源属性)
+
+3. To protect a table from accidental modifications in the Table Editor, you can make it read-only. To do that, click   in the lower-right corner of the workspace
+
+    为了防止表在表编辑器中被意外修改，可以将其设置为只读。为此，单击工作区的右下角
+
+4. Database tool窗口提供了对数据库对象的基本信息的访问(Ctrl+Q)  ctrl+q
+
+5. clearstatcache 清除文件状态缓存
+
+6. pack unpack
+
+7. The Value view for tables (Ctrl+Q) provides details about the values in the selected cells and also shows the info about related records
+
+8. grep -rn 送货时间  grep: egrep fgrep:快速grep  more 空格 b键
+
+9. less more n=>next /
+
+10. git reset HEAD filename
+
+11. sysctl命令被用于在内核运行时动态地修改内核的运行参数
+
+12. You can quickly get familiar with the main features of the IDE by reading these tips. You may try out the features described in the tips while this dialog stays open. If you close the dialog, you can always get back to it by selecting Help | Tip of the Day on the main menu. 通过阅读这些技巧，您可以快速熟悉IDE的主要特性。在此对话框保持打开状态时，您可以尝试提示中描述的特性。如果您关闭对话框，您总是可以通过在主菜单上选择Help | Tip of the Day返回到它
+
+13. mysqli ctrl+alt+f7

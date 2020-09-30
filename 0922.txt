@@ -1,0 +1,16 @@
+fdisk -l
+
+perf top -p 31439 perf特性 linux trace特性
+sar
+
+iotop
+iftop -P
+lsof(list open files)是一个列出当前系统打开文件的工具
+
+ss -nt
+
+Twitter SnowFlake
+pstree -p  4638
+
+feof 测试文件指针是否到了文件结束的位置
+git branch --set-upstream 本地关联远程分支

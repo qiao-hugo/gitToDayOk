@@ -1,0 +1,22 @@
+swoole_tracker
+
+swoole plus support => enabled
+plugin support => co\\redis co\mysql pdo mysqli phpredis memcahced curl mongodb guzzle elasticsearch memtool blocktool perftool debug
+Version => 2.9.2
+
+find / -iname php-config
+
+https://zhuanlan.zhihu.com/p/85949791
+linux gdb
+
+PHPTrace
+
+git show --stat 116840ebf69079202bf
+git log --stat 116840ebf69079202bf
+git log -p admin_xpx/customer_configure.php
+git shortlog
+git shortlog | grep zypom
+git shortlog
+git log --pretty=oneline  short，full 和 fuller 选项
+git log --pretty=short  short，full 和 fuller 选项
+git log -p -2

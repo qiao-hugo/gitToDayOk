@@ -6,6 +6,42 @@ git config --global color.ui true
 
 netstat -ano|findstr "80"  netstat -ano|grep  "80"
 
+netstat vmstat iostat
+
 git config -global
 
 git pull --rebase origin master
+
+git push --set-upstream origin master
+
+git push -u origin master
+
+proxy_buffer_size
+
+proxy_buffers
+
+proxy_busy_buffers_size
+
+scandir
+
+flush;
+
+clearstatcache
+
+glob — 寻找与模式匹配的文件路径
+
+多维数组越复杂，引用带来的性能提高越大，引用可以减少数组元素的哈希查找
+
+str_replace > strtr > preg_replace
+
+ulimit -n
+
+ctrl+Y
+
+1231312
+
+
+
+
+
+

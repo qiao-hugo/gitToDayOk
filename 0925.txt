@@ -1,0 +1,10 @@
+which和whereis命令都是Linux操作系统下查找可执行文件路径的命令
+
+which ls
+whereis ls
+
+php -r 'phpinfo();'
+taskset -c -p 30294
+tailf、tail -f、tail -F三者区别
+
+WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update

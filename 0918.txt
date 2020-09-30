@@ -1,0 +1,54 @@
+1. nginx sendfile tcp_nopush tcp_nodelay
+2. DIRECTORY_SEPARATOR  DIRECTORY_SEPARATOR
+3. Nginx proxy_pass
+4. Nginx中sendfile的作用
+5. client_header_buffer_size
+6. large_client_header_buffers
+7. cat /proc/sys/vm/swappiness
+8. sysctl vm.swappiness = 10
+   cat /proc/sys/vm/swappiness
+9. vi /etc/sysctl.conf
+10. sysctl -p
+11. 内存用完 用swap
+12. ob_start();
+13. ob_get_contents(); 返回输出缓冲区的内容
+14. str_repeat(" ",500)
+15. ob_end_flush
+16. ob_end_clean
+17. flush 刷新输出缓冲
+18. fastcgi_temp
+19. cat /proc/sys/vm
+20. /proc/sys/vm/drop_caches
+21. 磁盘都系IO
+22. ob_implicit_flush
+23. make test
+24. protected-mode no  daemonize =yes
+25. sysctl -p
+26. /proc/sys etc/sysconf
+27. sysctl  命令用于运行时配置内核参数
+28. tee 命令用于读取标准输入的数据，并将其内容输出成文件
+29. tcp_nopush tcp_nodelay 矛盾
+30. top -b -n 1 | grep php  top -b -n 1
+31. cat meminfo  cat meminfo
+32. 当memfree不够时，内核会通过回写机制(pdflush线程)把cached和buffered内存回写到后备存储器，也可以通过手动方式显式释放cache内存  echo 3 > /proc/sys/vm/drop_caches
+33. 看进程的堆段或者mmap段的虚拟地址空间是否持续增加  看进程的堆段或者mmap段的虚拟地址空间是否持续增加
+34. pmap
+35. git rebase --skip  git rebase --con
+36. nginx proxy_buffer fastcgi_buffer
+
+37. https://www.sohu.com/a/395429186_733939
+    https://blog.csdn.net/weixin_44200140/article/details/95383135
+38. micrototime
+
+39. netstat -anpo | grep "php-cgi" | wc -l    netstat -anpo | grep php
+
+    vmstat和top
+
+    pidstat-p pid -r 1 1000
+    pidstat -p 7998 -r 1 1000
+
+    7998
+
+    sar是System Activity Reporter的缩写
+40. unlink 删除文件 pack unpack 打包二进制数据
+    mkdir($to, 0755, true)
